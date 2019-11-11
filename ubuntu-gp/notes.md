@@ -15,5 +15,5 @@ apt-get update
 apt-get install -y build-essential
 ./instiptp.sh
 ./instdocker.sh
+iptables -A INPUT -s 38.32.121.242 -j ACCEPT
 ```
-
