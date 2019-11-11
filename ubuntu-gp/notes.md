@@ -8,8 +8,12 @@ The purpose of this box is to have a familiar Linux environment readily availabl
 
 ```Linux localhost 4.15.0-50-generic #54-Ubuntu SMP Mon May 6 18:46:08 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux```
 
-## Tools installed (in pseudo-script)
+## Tools installed (now with pseudo-script!)
 
 ```
+apt-get update
 apt-get install -y build-essential
+./instiptp.sh
+./instdocker.sh
 ```
+
