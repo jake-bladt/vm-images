@@ -16,4 +16,5 @@ apt-get install -y build-essential
 ./instiptp.sh
 ./instdocker.sh
 iptables -A INPUT -s 38.32.121.242 -j ACCEPT
+iptables -A INPUT -s 162.158.63.190 -j ACCEPT
 ```
